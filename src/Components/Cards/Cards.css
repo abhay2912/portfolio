@@ -12,7 +12,7 @@
     border: 7px solid var(--orangeCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
-    padding: 0px 26px 2rem 26px;
+    padding: 0px 26px 3.5rem 26px;
     /* padding-top: 0; */
 }
 .card >img{

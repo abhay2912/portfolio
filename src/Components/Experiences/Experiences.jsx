@@ -7,9 +7,9 @@ const Experiences = () => {
   return (
     <div className='experiences' id='Experince'>
         <div className="achievements">
-          <div className="circle">1+</div>
-          <span style={{color: darkMode? 'white': ''}}>Year</span>
-          <span> Experiences</span>
+          <div className="circle">2+</div>
+          <span style={{color: darkMode? 'white': ''}}>Years</span>
+          <span> Experiences in WebDev.</span>
         </div>
         <div className="achievements">
           <div className="circle">6+</div>

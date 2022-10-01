@@ -25,11 +25,11 @@ const Navbar = () => {
                             <li>Experince</li>   
                         </Link>
                         <Link spy={true}  to='Works' smooth={true}>
-                            <li>Works</li>   
+                            <li>Technology</li>   
                         </Link>
-                        <Link spy={true}  to='Protfolio' smooth={true}>
+                        {/* <Link spy={true}  to='Protfolio' smooth={true}>
                             <li>Protfolio</li>
-                        </Link>
+                        </Link> */}
                     </ul>
                 </div>
                  

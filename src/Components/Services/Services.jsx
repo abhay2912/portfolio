@@ -11,6 +11,7 @@ import { themeContext } from "../../Context";
 
 // import {motion} from 'framer-motion'
 import {motion} from 'framer-motion'
+
 const Services = ()=> {
 
     const transition = {duration: 1, type: 'spring'};
@@ -24,8 +25,7 @@ const Services = ()=> {
             <div className="awesome">
                 <span style={{color: darkMode? 'White': ''}}>My Awesome</span>
                 <span>Services</span>
-                <spane style={{color: darkMode? 'White': ''}}>Hello everyone Here the some domai adf ha dfhasd fasd j nsjsfnjfn fa sf jnf f fdfsdsj  <br/>I likeasifd efjf fjdf jsdnf fjdf
-                    dffg fgnfj to work.
+                <spane style={{color: darkMode? 'White': ''}}>In AI i had tranined ML models and readed so many deep learning aritcles and preprocessed many datasets<br/>In Web development i learned about many framewroks like React, Django, flusk etc.
                 </spane>
                 <a href={Resume}>
                     <button className="button s-button">Download CV</button>                    
@@ -37,16 +37,17 @@ const Services = ()=> {
             {/* right sides */}
             <div className="cards">
                 {/* first card */}
-                    <motion.div
+                    
+                <motion.div 
                     initial= {{left:'25rem'}}
                     whileInView = {{left: '14rem'}}
                     viewport={{ once: false }}
                     transition = {transition}
                     style={{left: '14rem'}}>
                         <Cards 
-                        emoji={HeartEmoji} 
-                        head={"Desgin"}
-                        details = {"Photoshop, sketch, adobee"} 
+                        emoji={AIML} 
+                        head={"Developer"}
+                        details = {"Devloped ML models"} 
                         />
                     </motion.div>
                 {/* second card */}
@@ -63,16 +64,16 @@ const Services = ()=> {
                         />
                     </motion.div>
                 {/* Thrid card */}
-                    <motion.div 
+                <motion.div
                     initial= {{left:'22rem'}}
                     whileInView = {{left: '12rem'}}
                     viewport={{ once: false }}
                     transition = {transition}
                     style={{left: '12rem', top: '19rem'}}>
                         <Cards 
-                        emoji={AIML} 
-                        head={"Developer"}
-                        details = {"Devloped ML models"} 
+                        emoji={HeartEmoji} 
+                        head={"Desgin"}
+                        details = {"Photoshop, sketch, adobee"} 
                         />
                     </motion.div>
                     <div className="blur s-blur2" style={{background: "var(--purple)" }}></div>

@@ -42,6 +42,10 @@
     top: 5rem;
     left: 15rem;
 }
+.w-mainCircle>:nth-child(5){
+    top: 5rem;
+    left: 6rem;
+}
 
 
 .w-secondaryCircle{
@@ -56,8 +60,18 @@
     box-shadow: var(--smboxShadow);
     background:none;
     background: white;
-    /* transform: scale(.45); */
+    transform: scale(.9);
+
 }
+/* netlify logo size */
+.w-secondaryCircle:nth-child(1)>img{
+    transform: scale(.3);
+}
+/* github logo size */
+.w-secondaryCircle:nth-child(5)>img{
+    transform: scale(.65);
+}
+/* all image sizing  */
 .w-secondaryCircle > img{
     transform: scale(.4);
 }

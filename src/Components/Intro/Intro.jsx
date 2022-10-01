@@ -27,9 +27,9 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{color: darkMode? 'white': ''}} >Hi! Im</span>
                     <span>Abhay Gupta</span>
-                    <span style={{color: darkMode? 'White': ''}}>Frontened Developers with the\
-                        Fresh mind and enthf asdnd ffkasdd
-                        ustic akdfn jdnjfg sdfa kfand f dfkas dfjsdn fklsd fksm df d nfkjs flkf </span>
+                    <span style={{color: darkMode? 'White': ''}}>An independent and self-motivated under graduate with excellent analytical and problem solving skills
+                        <br/>Software Developers with the Fresh mind and AIML enthusiastic 
+                    </span>
                 </div>
                 <button className='button i-button'>Hire me!</button>
                 <div className="i-icon">
@@ -78,7 +78,7 @@ const Intro = () => {
                 style={{top: '18rem', left: '0rem'}}
                 // className = "Floating-Div"
                 >
-                    <FloatingDiv image={thumbup} text1="best Desgin" text2="develp" />
+                    <FloatingDiv image={thumbup} text1="Artificial" text2="Intelligence" />
                 </motion.div>
                 {/* blur div */}
                 <div className="blur" 
